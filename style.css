@@ -1,1 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
 
+body {
+    background-image: url(https://carup.se/wp-content/uploads/2022/11/mclarenp1gtr5-jpg.webp);
+    background-size: cover;
+}
+
+.prime_nav li {
+    list-style-type: none;
+}
+
+.prime_nav ul {
+    display: flex;
+    padding: 1em;
+    Background-color: black;
+    gap: 1em;
+    justify-content: space-evenly;
+}
+
+.prime_nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.prime_nav a:hover {
+    color: orange;
+}
+
+.hidden_anchor {
+    color: rgba(1, 1, 1, 0)
+}
+
+/*
+.grid-container {
+    Display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 100px;
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+*/
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
